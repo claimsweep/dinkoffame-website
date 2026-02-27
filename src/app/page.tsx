@@ -13,7 +13,7 @@ const FEATURES = [
     icon: "🎯",
     title: "Log Every Match",
     description:
-      "Singles or doubles — tap in your score in seconds. We handle the XP math, you handle the dinks.",
+      "Singles or doubles - tap in your score in seconds. We handle the XP math, you handle the dinks.",
   },
   {
     icon: "⚡",
@@ -90,7 +90,7 @@ const BADGES = [
 const XP_TABLE = [
   { action: "Log a match", xp: "+30 XP", note: "base" },
   { action: "Play a new opponent", xp: "+100 XP", note: "bonus" },
-  { action: "Win the match", xp: "+10 XP", note: "minimal — it's social, not sweaty" },
+  { action: "Win the match", xp: "+10 XP", note: "minimal - it's social, not sweaty" },
   { action: "Tag a badge", xp: "+5 XP", note: "per tag given" },
   { action: "Refer a friend", xp: "+200 XP", note: "up to 5/month" },
   { action: "7-day streak", xp: "+50 XP", note: "keep showing up" },
@@ -112,9 +112,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-xl">
         <div className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
           <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center">
-              <span className="text-lg">🥒</span>
-            </div>
+            <img src="/logo.png" alt="Dink of Fame" className="w-8 h-8 rounded-lg" />
             <span className="text-lg font-bold tracking-tight text-foreground">
               Dink of <span className="text-primary">Fame</span>
             </span>
@@ -153,7 +151,7 @@ export default function Home() {
           <div className="animate-fade-up inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             <span className="text-sm text-primary font-medium">
-              Coming soon — join the waitlist
+              Coming soon - join the waitlist
             </span>
           </div>
 
@@ -266,8 +264,8 @@ export default function Home() {
             <div className="absolute -top-4 -right-4 animate-float text-2xl">
               🏓
             </div>
-            <div className="absolute -bottom-4 -left-4 animate-float-slow text-2xl">
-              🥒
+            <div className="absolute -bottom-4 -left-4 animate-float-slow">
+              <img src="/logo.png" alt="" className="w-8 h-8 rounded-lg" />
             </div>
           </div>
         </div>
@@ -357,7 +355,7 @@ export default function Home() {
               <span className="text-gradient-warm">earn more XP</span>
             </h2>
             <p className="mt-4 text-lg text-muted max-w-xl mx-auto">
-              We reward you for meeting new players — not for beating the
+              We reward you for meeting new players - not for beating the
               same ones. Connection {">"} competition.
             </p>
           </div>
@@ -598,7 +596,7 @@ export default function Home() {
             {[
               {
                 quote:
-                  "Finally an app that gets it. I don't need another rating system — I need to meet people to play with.",
+                  "Finally an app that gets it. I don't need another rating system - I need to meet people to play with.",
                 name: "Mike R.",
                 detail: "Advanced · Austin, TX",
               },
@@ -640,7 +638,7 @@ export default function Home() {
 
         <div className="relative mx-auto max-w-2xl px-6 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
-            <span className="text-sm">🥒</span>
+            <img src="/logo.png" alt="" className="w-5 h-5 rounded" />
             <span className="text-sm text-primary font-medium">
               Be first on the court
             </span>
@@ -667,9 +665,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2.5">
-              <div className="w-7 h-7 rounded-lg bg-primary/20 flex items-center justify-center">
-                <span className="text-sm">🥒</span>
-              </div>
+              <img src="/logo.png" alt="Dink of Fame" className="w-7 h-7 rounded-lg" />
               <span className="text-sm font-bold tracking-tight">
                 Dink of <span className="text-primary">Fame</span>
               </span>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dink of Fame — Make Pickleball Social Again",
+  title: "Dink of Fame - Make Pickleball Social Again",
   description:
     "The social pickleball app where every game earns XP, every opponent builds your network, and every court is a community. Track matches, earn badges, climb leaderboards.",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "pickleball players",
   ],
   openGraph: {
-    title: "Dink of Fame — Make Pickleball Social Again",
+    title: "Dink of Fame - Make Pickleball Social Again",
     description:
       "Track matches, earn XP, collect badges, and climb your facility leaderboard. The social layer pickleball has been missing.",
     type: "website",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dink of Fame — Make Pickleball Social Again",
+    title: "Dink of Fame - Make Pickleball Social Again",
     description:
       "Track matches, earn XP, collect badges, and climb your facility leaderboard.",
   },
